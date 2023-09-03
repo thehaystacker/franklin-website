@@ -1,0 +1,19 @@
+.franklin-banner {
+  background-color: blue;
+  color: #fff;
+}
+
+.franklin-banner > div {
+  display: flex;
+  align-items: center;
+  padding: 2em;
+}
+
+.franklin-banner > div > div:nth-child(1) {
+  font-size: 3em;
+  flex: 2;
+}
+.franklin-banner > div > div:nth-child(2) {
+  flex: 1;
+  font-size: 0;
+}

@@ -9,7 +9,7 @@
 
 .cards > ul > li {
   border: 1px solid var(--highlight-background-color);
-  background-color: var(--background-color)
+  background-color: var(--background-color);
 }
 
 .cards .cards-card-body {
@@ -28,4 +28,17 @@
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+}
+
+.cards .cards-card-body > a {
+  display: block;
+  text-align: right;
+  font-size: 18px;
+  color: #000;
+  text-decoration: underline;
+}
+
+.cards .cards-card-body > a::before {
+  content: "";
+  position: absolute;
 }
